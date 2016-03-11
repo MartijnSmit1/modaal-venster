@@ -1,0 +1,46 @@
+#wrapper{
+	height: 100%;
+	width: 100%;
+	background-color: gainsboro;
+	padding-bottom: 20px;
+	padding-top: 5px;
+}
+
+footer{
+	background-color: gainsboro;
+	margin-top: 10px;
+	padding-top: 3px;
+}
+
+body{
+	text-align: center;
+}
+
+.VensterInd {
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    width: 70%;
+    max-width: 600px;
+    left: 50%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.Venster:before {
+    content: "";
+    position: fixed;
+/*    display: none;*/
+    background-color:rgba(0,0,0,0.3);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+.sluiter {
+    background-color: red;
+    border: 20px;
+    color: white;
+}
