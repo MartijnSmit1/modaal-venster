@@ -1,15 +1,16 @@
 #wrapper{
 	height: 100%;
 	width: 100%;
-	background-color: gainsboro;
+	background-color: crimson;
 	padding-bottom: 20px;
 	padding-top: 5px;
+	font-family: cursive;
+	color: white;
 }
 
 footer{
-	background-color: gainsboro;
-	margin-top: 10px;
-	padding-top: 3px;
+	background-color: crimson;
+		padding-top: 3px;
 }
 
 body{
